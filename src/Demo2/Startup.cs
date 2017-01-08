@@ -38,7 +38,7 @@ namespace Demo2
                 app.UseDeveloperExceptionPage();
             }
             app.UseIdentity();
-
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
             //app.UseDeveloperExceptionPage();
             //app.Run(async (context) =>
